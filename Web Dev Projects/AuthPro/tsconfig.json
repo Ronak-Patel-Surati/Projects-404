@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": ".",  // Allow non-relative paths
+    "paths": {
+      "@/*": ["*"],   // Correctly map the alias
+      "@env": ["./types/env.d.ts"] // Path to your custom env type definition
+    },
+    "typeRoots": ["./types", "./node_modules/@types"], // Include the types folder
+    "types": ["@env"] // Specify types to include
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}

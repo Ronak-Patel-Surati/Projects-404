@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager - CodeWithHarry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #EBEEF1;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .main {
+            background-color: white;
+            width: 90%;
+            max-width: 800px;
+            min-height: 50vh;
+            padding: 30px;
+            border: 1px solid black;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .list ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .list ul li {
+            display: inline-block;
+            padding: 5px 15px;
+            margin-right: 10px;
+            font-size: 18px;
+            background-color: #f0f0f0;
+            border-radius: 20px;
+        }
+
+        .text {
+            margin-top: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+
+        .btn button {
+            background-color: #437dc0;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn button:hover {
+            background-color: #365a9c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <img src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?auto=format&fit=crop&q=80&w=2061&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature and Lake">
+            <div class="list">
+                <ul>
+                    <li>Nature</li>
+                    <li>Lake</li>
+                </ul>
+            </div>
+            <div class="text">
+                <h1>This is Dummy</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In numquam
+                    quo consectetur similique impedit. Cupiditate illum cumque pariatur
+                    atque temporibus earum eveniet voluptatem.
+                </p>
+            </div>
+            <div class="btn">
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
