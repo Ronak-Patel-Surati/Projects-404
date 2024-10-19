@@ -1,7 +1,7 @@
 # Wallpaper Application
 This project is a dynamic wallpaper application built with modern navigation techniques and UI components. The app features intuitive navigation and smooth transitions across different pages and functionalities.
 
-##Key Features
+## Key Features
 Bottom Tabs Navigation: The app includes a bottom tab navigation system that allows users to switch between different sections easily.
 
 Top Tabs in the First Tab: Within the first bottom tab, there are top tabs providing additional categorized navigation, ensuring a smooth user experience.
